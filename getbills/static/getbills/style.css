@@ -1,0 +1,139 @@
+body {
+    background-color: #e41f28;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 1290px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.socialLinks li {
+    display: inline-block;
+    list-style-position: inside;
+}
+
+.top {
+    height: 60px;
+    text-align: right;
+}
+
+.socialLinks {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('images/banner.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: -83px;
+    border-bottom: 2px solid white;
+}
+
+.logoMain {
+    height: 142px;
+    margin-left: 468px;
+    margin-top: -71px;
+}
+
+.topLine {
+    height: 22px;
+    margin-top: -11px;
+}
+
+h1 {
+    color: white;
+    font: 36px 'Basil';
+}
+
+.conditions {
+    color: #e6ddbd;
+    font: 24px 'Basil';
+}
+
+h2 {
+    color: white;
+    font: 28px 'Basil';
+    margin-top: 40px;
+}
+
+.stepsList li {
+    list-style-type: none;
+
+}
+
+.stepInside li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stepInsideInside li {
+    list-style-type: none;
+    display: block;
+
+}
+
+.stepInsideInsideWrap {
+    text-align: left;
+}
+
+.stepInside {
+    margin-bottom: 30px;
+}
+
+.stepText {
+    color: #e6ddbd;
+    font: 28px 'PT Sans Narrow';
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+#step2InnerList {
+    padding: 0;
+}
+
+.stepsWrap {
+    margin-left: -146px;
+}
+
+.web {
+    color: white;
+}
+
+.swooshWrap {
+    margin-left: 663px;
+    margin-top: -33px;
+}
+
+.conditionWrap {
+    color: white;
+    font: 28px 'Basil';
+    margin-top: 60px;
+}
+
+.castleWrap {
+    height: 672px;
+    width: 1064px;
+    margin: 0 auto;
+    text-align: left;
+    background-image: url('images/castle.png');
+    margin-top: -282px;
+}
+
+.inner {
+
+}
+
+.winnerWrap {
+    color: #e6ddbd;
+    font: 26px 'PT Sans Narrow';
+    margin-top: -82px;
+}
