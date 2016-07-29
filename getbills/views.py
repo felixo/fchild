@@ -16,6 +16,13 @@ def index(request):
     #return HttpResponse("Hello, world. You're at the getbills index.")
 
 def addAplication(request):
-    return HttpResponse("Hello, world. You're at the getbills addAplication.")
+    if request.method == 'POST':
+        form = ApplicationForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('getbills:index'))
+    else:
+        form = ApplicationForm()
+    return render(request, 'getbills/index.html', {'form': form})
 
 # Create your views here.

@@ -16,7 +16,7 @@ class Application(models.Model):
     city = models.CharField(max_length=200)
     docfile = models.FileField(upload_to='bills')
     status = models.CharField(max_length=200, choices=Status)
-    data = models.DateTimeField('date published')
+    data = models.DateTimeField('date published',auto_now_add=True)
 
     def __unicode__(self):  # __unicode__ on Python 2
         return self.name
