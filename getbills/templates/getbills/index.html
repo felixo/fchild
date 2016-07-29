@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="{% static 'getbills/script.js' %}"></script>
     <title></title>
 </head>
 <body>
@@ -143,7 +145,21 @@
 </div>
 
 <footer>
-
+    <ul class="footerList">
+        <li>
+            <div class="footerText" id="fints"><a href="http://fabercastellgottalent.com/where_buy/">Список магазинов «Фабер-Кастелл»</a></div>
+            <div>
+                <span class="footerText">Мы в соц. сетях</span>
+                <a href="https://www.facebook.com/fabercastellrussia"><img src="{% static "getbills/images/fb.png" %}" /></a>
+                <a href="https://vk.com/fabercastellrussia"><img src="{% static "getbills/images/vk.png" %}" /></a>
+                <a href="https://ok.ru/fabercastell"><img src="{% static "getbills/images/ok.png" %}" /></a>
+            </div>
+        </li>
+        <li id="specialFooter">
+            <div class="footerNumber">+7 (495) 225 96 34</div>
+            <div class="footerText">contest@faber-castell.com.ru</div>
+        </li>
+    </ul>
 </footer>
 </body>
 </html>
