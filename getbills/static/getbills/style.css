@@ -39,8 +39,11 @@ header {
 
 .logoMain {
     height: 142px;
-    margin-left: 468px;
+    width: 354px;
+
+    margin: 0 auto;
     margin-top: -71px;
+    text-align: left;
 }
 
 .topLine {
@@ -125,7 +128,7 @@ h2 {
     margin: 0 auto;
     text-align: left;
     background-image: url('images/castle.png');
-    margin-top: -282px;
+    margin-top: -1084px;
 }
 
 .inner {
@@ -136,4 +139,119 @@ h2 {
     color: #e6ddbd;
     font: 26px 'PT Sans Narrow';
     margin-top: -82px;
+}
+
+.formHeaderWrap {
+    color: white;
+    font: 30px 'Basil';
+    margin-top: 60px;
+}
+
+.gradientWrap {
+    width: 100%;
+    height: 530px;
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to bottom, #e41f28, #9f161c);
+    margin-top: 270px;
+}
+
+.formList {
+    list-style-type: none;
+}
+
+.formListInner {
+    list-style-type: none;
+}
+
+label {
+    color: #e6ddbd;
+    font: 15px 'PT Sans Narrow';
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    height: 24px;
+    width: 244px;
+    background-color: #e6ddbd;
+    border: 1px inset #e7e7e7;
+    -moz-border-radius: 2px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 2px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:2px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 2px; /* закругление углов для всех, кто понимает */
+}
+
+#sendFileFix {
+      overflow:hidden;
+      width:121px;
+      height:26px;
+      cursor:pointer;
+      background: url('images/choose.png') no-repeat;
+      display: inline-table;
+      vertical-align: 3px;
+}
+
+input[type="file"] {
+      opacity:0;
+      filter:alpha(opacity:0);
+      font-size:0px;
+      cursor:pointer;
+      padding:0px;
+      border:none;
+      margin-left:-130px;
+      width: 130px;
+      height: 30px;
+
+}
+
+.formList li {
+
+}
+
+.formListInner li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.inputWrap {
+    text-align: right;
+}
+
+.formWrap {
+    margin-top: 52px;
+    margin-left: -212px;
+}
+
+#id_mail {
+    margin-left: -7px;
+}
+
+#id_city{
+    margin-left: 0px;
+}
+
+input[type="submit"] {
+    color: #e6ddbd;
+	background-color: transparent;
+	border: none;
+	height: 32px;
+	font: 26px 'Hitch Hike';
+	margin-right: -700px;
+	margin-top: -16px;
+}
+
+footer {
+    padding: px;
+    margin: 0px;
+    width: 1290px;
+    height: 104px;
+    background-color: #e6ddbd;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 19px;
+    -webkit-margin-before: 4px;
+}
+
+.formLineWrap {
+    margin-top: 42px;
 }
