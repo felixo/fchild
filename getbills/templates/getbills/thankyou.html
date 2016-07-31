@@ -90,10 +90,8 @@
     </div>
 </header>
 <div class="inner">
-    <h1>РОЗЫГРЫШ ПРИЗОВ ОТ FABER-CASTELL!</h1>
-    <div class="conditions">С 1 августа по 30 сентября 2016 года</div>
-    <h2>УЧИТЕСЬ ВМЕСТЕ С НАМИ!</h2>
-    <div class="stepsWrap">
+    <h1>СПАСИБО ВАМ ЗА ВАШЕ УЧАСТИЕ!</h1>
+<div class="stepsWrap">
         <ul class="stepsList">
             <li>
                 <div class="step1Wrap">
@@ -149,62 +147,7 @@
         </ul>
         <div class="swooshWrap"><img src="{% static "getbills/images/swoosh.png" %}" /></div>
     </div>
-    <div class="conditionWrap">
-        КАЖДУЮ НЕДЕЛЮ ВЫ ПОЛУЧАЕТЕ ВОЗМОЖНОСТЬ <br>
-        ВЫИГРАТЬ НАБОР ДЛЯ ТВОРЧЕСТВА И РАЗВИТИЯ <br>
-        ОТ FABER-CASTELL. <br>
-    </div>
-    <div class="gradientWrap"></div>
-    <div class="castleWrap"></div>
-    <div class="winnerWrap">Победитель будет выбран случайным образом.</div>
-    <div class="formLineWrap"><img src="{% static "getbills/images/bottomline.png" %}" /></div>
 
-    <div class="formHeaderWrap">УЧАСТВОВАТЬ ПРОСТО</div>
-    <div class="formWrap">
-        <form action="{% url 'getbills:addAplication' %}" method="POST" enctype="multipart/form-data">
-            <p>{% csrf_token %}</p>
-            <ul class="formList">
-                <li>
-                    <div>
-                        <ul class="formListInner">
-                            <li>
-                                <div class="inputWrap">
-                                    <label>{{ form.name.label }}</label>
-                                    {{ form.name }}
-                                </div>
-                            </li>
-                            <li>
-                                <div class="inputWrap">
-                                    <label>{{ form.city.label }}</label>
-                                    {{ form.city }}
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <ul class="formListInner">
-                            <li>
-                                <div class="inputWrap">
-                                    <label>{{ form.mail.label }}</label>
-                                    {{ form.mail }}
-                                </div>
-                            </li>
-                            <li>
-                                <div class="inputWrap">
-                                    <label>{{ form.docfile.label }}</label>
-                                    <div id="sendFileFix" title="Нажмите на меня, для обзора файла">{{ form.docfile }}</div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                </li>
-            </ul>
-            <div id="div_send"><input type="submit" value="Отправить >>" /></div>
-        </form>
-    </div>
 </div>
 
 <footer>

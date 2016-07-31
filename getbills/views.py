@@ -15,12 +15,15 @@ def index(request):
     return render(request, 'getbills/index.html', {'form': form})
     #return HttpResponse("Hello, world. You're at the getbills index.")
 
+def thankyou(request):
+    return render(request, 'getbills/thankyou.html')
+
 def addAplication(request):
     if request.method == 'POST':
         form = ApplicationForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect(reverse('getbills:index'))
+            return HttpResponseRedirect(reverse('getbills:thankyou'))
     else:
         form = ApplicationForm()
     return render(request, 'getbills/index.html', {'form': form})
