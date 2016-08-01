@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Basil';
+    src: url("fonts/Basil.eot") format("embedded-opentype"),
+    url("fonts/Basil.woff") format("woff"),
+    url("fonts/Basil.ttf")  format("truetype"),
+    url("fonts/Basil.svg#Basil") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'PT Sans Narrow';
+src: url("fonts/PTN57F_0.ttf");
+}
+
+body {
+    background-color: #e41f28;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 1290px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.socialLinks li {
+    display: inline-block;
+    list-style-position: inside;
+    vertical-align: top;
+}
+
+.top {
+    height: 60px;
+    text-align: right;
+}
+
+.socialLinks {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.banner {
+    background-image: url('images/banner.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: -83px;
+    border-bottom: 2px solid white;
+}
+
+.logoMain {
+    height: 142px;
+    width: 354px;
+
+    margin: 0 auto;
+    margin-top: -71px;
+    text-align: left;
+}
+
+.topLine {
+    height: 22px;
+    margin-top: -11px;
+}
+
+h1 {
+    color: white;
+    font: 36px 'Basil';
+}
+
+.conditions {
+    color: #e6ddbd;
+    font: 24px 'Basil';
+}
+
+h2 {
+    color: white;
+    font: 28px 'Basil';
+    margin-top: 40px;
+}
+
+.stepsList li {
+    list-style-type: none;
+
+}
+
+.stepInside li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stepInsideInside li {
+    list-style-type: none;
+    display: block;
+
+}
+
+.stepInsideInsideWrap {
+    text-align: left;
+}
+
+.stepInside {
+    margin-bottom: 30px;
+}
+
+.stepText {
+    color: #e6ddbd;
+    font: 28px 'PT Sans Narrow';
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+#step2InnerList {
+    padding: 0;
+}
+
+.stepsWrap {
+    margin-left: -146px;
+}
+
+.web {
+    color: white;
+}
+
+.swooshWrap {
+    margin-left: 663px;
+    margin-top: -33px;
+}
+
+.conditionWrap {
+    color: white;
+    font: 28px 'Basil';
+    margin-top: 60px;
+}
+
+.castleWrap {
+    height: 672px;
+    width: 1064px;
+    margin: 0 auto;
+    text-align: left;
+    background-image: url('images/castle.png');
+    margin-top: -1144px;
+}
+
+.inner {
+
+}
+
+.winnerWrap {
+    color: #e6ddbd;
+    font: 26px 'PT Sans Narrow';
+    margin-top: -82px;
+}
+
+.formHeaderWrap {
+    color: white;
+    font: 30px 'Basil';
+    margin-top: 60px;
+}
+
+.gradientWrap {
+    width: 100%;
+    height: 590px;
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to bottom, #e41f28, #9f161c);
+    margin-top: 270px;
+}
+
+.formList {
+    list-style-type: none;
+}
+
+.formListInner {
+    list-style-type: none;
+}
+
+label {
+    color: #e6ddbd;
+    font: 15px 'PT Sans Narrow';
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    height: 24px;
+    width: 244px;
+    background-color: #e6ddbd;
+    border: 1px inset #e7e7e7;
+    -moz-border-radius: 2px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 2px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:2px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 2px; /* закругление углов для всех, кто понимает */
+}
+
+#sendFileFix {
+      overflow:hidden;
+      width:121px;
+      height:26px;
+      cursor:pointer;
+      background: url('images/choose.png') no-repeat;
+      display: inline-table;
+      vertical-align: 3px;
+}
+
+input[type="file"] {
+      opacity:0;
+      filter:alpha(opacity:0);
+      font-size:0px;
+      cursor:pointer;
+      padding:0px;
+      border:none;
+      margin-left:-130px;
+      width: 130px;
+      height: 30px;
+
+}
+
+.formList li {
+
+}
+
+.formListInner li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.inputWrap {
+    text-align: right;
+}
+
+.formWrap {
+    margin-top: 52px;
+    margin-left: -212px;
+}
+
+#id_mail {
+    margin-left: -7px;
+}
+
+#id_city{
+    margin-left: 0px;
+}
+
+input[type="submit"] {
+    color: #e6ddbd;
+	background-color: transparent;
+	border: none;
+	height: 32px;
+	font: 26px 'Hitch Hike';
+	margin-right: -700px;
+	margin-top: -16px;
+	margin-bottom: 60px;
+}
+
+footer {
+    padding: px;
+    margin: 0px;
+    width: 1290px;
+    height: 104px;
+    background-color: #e6ddbd;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 19px;
+    -webkit-margin-before: 4px;
+}
+
+.formLineWrap {
+    margin-top: 42px;
+}
+
+.footerList{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footerText {
+    color: #161a16;
+    font: 15px 'PT Sans Narrow';
+    text-align: right;
+    vertical-align: 5px;
+}
+
+.footerNumber{
+    color: #161a16;
+    font: 28px 'Basil';
+}
+
+.footerList li {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 132px;
+}
+
+#specialFooter {
+    margin-left: 500px;
+}
