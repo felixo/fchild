@@ -19,7 +19,7 @@ class Application(models.Model):
     data = models.DateTimeField('date published',auto_now_add=True)
 
     def __unicode__(self):  # __unicode__ on Python 2
-        return self.name
+        return unicode(self.name) or u''
 
 class Winners(models.Model):
     number = models.IntegerField()
@@ -28,4 +28,4 @@ class Winners(models.Model):
     date_end = models.DateTimeField('date of end')
 
     def __unicode__(self):  # __unicode__ on Python 2
-        return self.number
+        return unicode(self.number) or u''
